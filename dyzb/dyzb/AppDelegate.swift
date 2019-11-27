@@ -1,10 +1,19 @@
-//
+//  项目托管到github步骤
+//  1、在github新建一个仓库。
+//  2、在本地执行 git clone + git项目地址创建本地仓库。
+//  3、xcode新建一个项目放置在本地仓库目录，利用工具栏Source Control进行commint和push操作。
+
+//  如何获取想要模仿的app图片资源
+//  1、使用pp助手或者itools下载想要模仿的app。
+//  2、在本地打开下载好的ipa，解压就可以看到应用图标、启动图片等资源。
+//  3、assets.car无法解压，在github下载cartool工程，打开Edit Scheme -> run -> arguments -> Arguments passed on lanuch新增要解压的.cer文件和想要解压到的目录，运行即可。
+
 //  AppDelegate.swift
 //  dyzb
 //
 //  Created by wen qing zhu on 2019/11/27.
 //  Copyright © 2019 kkk. All rights reserved.
-//
+
 
 import UIKit
 
